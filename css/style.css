@@ -1,0 +1,49 @@
+.popup {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  width: 280px;
+  left: 50%;
+  margin-left: -150px;
+  height: 180px;
+  top: 50%;
+  margin-top: -100px;
+  background: #FFF;
+  z-index: 20;
+}
+
+/* From here on, just aesthetics */
+
+body {
+  background: #1abc9c;
+  font-family: Arial, sans-serif;
+  font-size: 120%;
+  padding: 20px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+.popup a,
+.popup a:visited {
+  color: #1abc9c;
+}
+
+p {
+	margin: 1em 0;
+}
+
+p+p+p {
+	font-size: 60%;
+}
